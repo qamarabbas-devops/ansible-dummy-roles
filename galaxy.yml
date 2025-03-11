@@ -1,0 +1,18 @@
+namespace: qamarabbas-devops
+name: apache2
+version: 1.0.0
+readme: README.md
+authors:
+  - "Qamar Abbas <your-email@example.com>"
+description: "A test role for installing Apache2"
+license:
+  - MIT
+min_ansible_version: "2.9"
+platforms:
+  - name: "Ubuntu"
+    versions:
+      - "focal"
+  - name: "Debian"
+    versions:
+      - "buster"
+dependencies: []
